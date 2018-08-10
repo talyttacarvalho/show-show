@@ -44,7 +44,6 @@ $(document).ready(function () {
 	}
 
 	function searchShow(json) {
-		console.log(json);
 		var artistEvents = json.resultsPage.results.event;
 		$("#search-text").val("");
 		$("#show-show").empty();
